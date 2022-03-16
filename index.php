@@ -8,12 +8,13 @@
     <title>CodeCamp</title>
 </head>
 <body>
-    <?php require_once("header.php") ?>
+        <?php require_once("header.php") ?>
    <div class="container">
-   <div id="clock">8:10:45</div>
-    <script src="javascript/clock.js"></script>
+        <div id="clock">8:10:45</div>
+        <script src="javascript/clock.js"></script>
    </div>
 
+    
    <footer>
    <h3> Neem contact op:</h3>
    <span>email: 12345678910@blabla.hallo</span>
