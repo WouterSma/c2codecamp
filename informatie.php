@@ -8,14 +8,6 @@
     <title>CodeCamp</title>
 </head>
 <body>
-   <header>
-       <nav>
-            <h1>CodeCamp</h1>
-           <a href="">Home</a>
-           <a href="">Muziek</a>
-           <a href="">Informatie</a>
-           <a href="">tools</a>
-       </nav>
-   </header>
+    <?php require_once("header.php") ?>
 </body>
 </html>

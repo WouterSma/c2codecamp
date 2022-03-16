@@ -8,16 +8,7 @@
     <title>CodeCamp</title>
 </head>
 <body>
-   <header>
-       <nav>
-            <h1>CodeCamp</h1>
-            <img src="img/logo.png" alt="CodeCamp logo">
-           <a href="">Home</a>
-           <a href="">Muziek</a>
-           <a href="">Informatie</a>
-           <a href="">tools</a>
-       </nav>
-   </header>
+    <?php require_once("header.php") ?>
    <div class="container">
    <div id="clock">8:10:45</div>
     <script src="javascript/clock.js"></script>
