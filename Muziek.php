@@ -9,6 +9,7 @@
 <body>
    <header>
        <nav>
+            <h1>CodeCamp</h1>
            <a href="">Home</a>
            <a href="">Muziek</a>
            <a href="">Informatie</a>

@@ -9,6 +9,8 @@
 <body>
    <header>
        <nav>
+            <h1>CodeCamp</h1>
+            <img src="img/logo.png" alt="CodeCamp logo">
            <a href="">Home</a>
            <a href="">Muziek</a>
            <a href="">Informatie</a>
