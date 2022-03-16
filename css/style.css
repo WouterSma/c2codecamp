@@ -1,3 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color:  #317f43;     
+}
+nav, a{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    color: white;
+    text-shadow: 2px 3px 8px #293a00;
+}
+nav, h1{
+    color: black;
+}
+
 <<<<<<< Updated upstream
 =======
 <<<<<<< HEAD
@@ -24,3 +48,4 @@
   }
 >>>>>>> cc5b0a3564d350afcfd5712693385976dfd6d85d
 >>>>>>> Stashed changes
+
