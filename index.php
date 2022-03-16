@@ -16,5 +16,9 @@
            <a href="">tools</a>
        </nav>
    </header>
+   <div class="container">
+   <div id="clock">8:10:45</div>
+    <script src="clock.js"></script>
+   </div>
 </body>
 </html>
