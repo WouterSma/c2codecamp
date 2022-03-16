@@ -20,7 +20,7 @@
    </header>
    <div class="container">
    <div id="clock">8:10:45</div>
-    <script src="clock.js"></script>
+    <script src="javascript/clock.js"></script>
    </div>
 
    <footer>
