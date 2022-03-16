@@ -14,6 +14,7 @@
         <script src="javascript/clock.js"></script>
    </div>
 
+   
     
    <footer>
    <h3> Neem contact op:</h3>
