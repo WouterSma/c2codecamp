@@ -9,13 +9,14 @@
 </head>
 <body>
    <header>
+       
        <nav>
-            <h1>CodeCamp</h1>
             <img src="img/logo.png" alt="CodeCamp logo">
-           <a href="">Home</a>
-           <a href="">Muziek</a>
-           <a href="">Informatie</a>
-           <a href="">tools</a>
+            <h1>CodeCamp</h1>
+            <a href="">Home</a>
+            <a href="">Muziek</a>
+            <a href="">Informatie</a>
+            <a href="">tools</a>
        </nav>
    </header>
    <div class="container">
@@ -23,6 +24,7 @@
     <script src="javascript/clock.js"></script>
    </div>
 
+    
    <footer>
    <h3> Neem contact op:</h3>
    <span>email: 12345678910@blabla.hallo</span>
