@@ -8,7 +8,7 @@
     <title>CodeCamp</title>
 </head>
 <body>
-        <?php require_once("header.php") ?>
+        <?php require_once "header.php"; ?>
    <div class="container">
         <div class="clock">
         <div class="outer-clock-face">
