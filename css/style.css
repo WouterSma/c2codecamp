@@ -217,3 +217,20 @@ nav, h1{
     box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.2);
     background-color: #559457;
 }
+
++}
+
+.tools_content{
+  background-color: #ddd;
+  color: #317f43;
+}
+
+.tools_content h1{
+  color: #317f43;
+  margin: 1rem;
+}
+
+.tools_content p{
+  color: #317f43;
+  margin: 1rem;
+}
