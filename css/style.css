@@ -9,7 +9,7 @@ header{
 nav {
     background-color:  #317f43;     
 }
-nav, a{
+nav{
     display: flex;
     justify-content: space-between;
     padding-left: 20px;
@@ -21,7 +21,21 @@ nav, a{
     color: white;
     text-shadow: 2px 3px 8px #293a00;
 }
-nav, h1{
+
+nav a{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: white;
+    text-shadow: 2px 3px 8px #293a00;
+}
+
+nav h1{
     color: #000000;
     font-size: 2.65rem;
 }
@@ -170,7 +184,6 @@ nav, h1{
     color: white;
     padding: 16px;
     font-size: 16px;
-    
 }
   
 .nav_links{
@@ -178,7 +191,34 @@ nav, h1{
     padding-right: 10%;
 }
 
+.hidden{
+    display: flex;
+    background-color: rgba(4, 170, 109, 0);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    max-width: 1%;
+    max-height: 1%;
+    text-decoration: rgb(255, 255, 255);
+    justify-self: right;
+}
+
+.hidden:hover{
+    background-color: rgba(4, 170, 109, 0.2);
+}
+
+.hidden:link{
+    text-decoration: none;
+}
     /* Dropdown code*/
+
+.dropdown_button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -217,3 +257,4 @@ nav, h1{
     box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.2);
     background-color: #559457;
 }
+

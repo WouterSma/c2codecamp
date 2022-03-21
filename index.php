@@ -27,12 +27,14 @@
         <div id="clock"></div>
         <script src="javascript/clock.js"></script>
     </div>
+    
    </div>
     
-   <footer>
-   <h3> Neem contact op:</h3>
-   <span>email: 12345678910@blabla.hallo</span>
-   <span>Tel. Nummer: 984967486098173289</span>
-   </footer>
+    <footer>
+        <h3> Neem contact op:</h3>
+        <span>email: 12345678910@blabla.hallo</span>
+        <span>Tel. Nummer: 984967486098173289</span>
+    </footer>
+    <a class="hidden" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">:)</a>
 </body>
 </html>
