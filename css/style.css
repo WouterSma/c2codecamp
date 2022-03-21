@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+header{
+  box-shadow: 100px 100px 800px 100px #888888;
+}
 nav {
     background-color:  #317f43;     
 }
