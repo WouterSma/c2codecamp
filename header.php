@@ -1,7 +1,6 @@
 <header>
        <nav>
             <img src="img/logo.png" alt="logo CodeCamp">
-            <h1>CodeCamp</h1>
             <div class="nav_links">
                 <div class="dropdown">
                     <a class="dropdown_button" href="index.php">Home</a>
