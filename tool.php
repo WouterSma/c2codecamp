@@ -9,5 +9,9 @@
 </head>
 <body>
     <?php require_once("header.php") ?>
+
+    <a href="tools/hamers.php">Hamers</a>
+    <a href="tools/kettingzagen.php">Kettingzagen</a>
+    <a href="tools/cirkelzagen.php">Cirkelzagen</a>
 </body>
 </html>
