@@ -173,6 +173,11 @@ nav, h1{
     
 }
   
+.nav_links{
+    display: flex;
+    padding-right: 10%;
+}
+
     /* Dropdown code*/
 .dropdown {
     position: relative;
