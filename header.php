@@ -8,7 +8,7 @@
     <title>C2CodeCamp</title>
 <header>
        <nav>
-            <img src="../img/logo.png" alt="logo CodeCamp">
+            <img src="img/logo.png" alt="logo CodeCamp">
             <div class="nav_links">
                 <div class="dropdown">
                     <a class="dropdown_button" href="https://bit.ly/368C4qt">Home</a>
@@ -16,7 +16,7 @@
                 <div class="dropdown">
                     <a class="dropdown_button" href="https://bit.ly/368C4qt">Muziek</a>
                     <div class="dropdown_content">
-                        <a href="muziek/bohemian.php">Bohemian Rhapsody</a>
+                        <a href="https://bit.ly/368C4qt">Bohemian Rhapsody</a>
                         <a href="https://bit.ly/368C4qt">muziek enzo</a>
                         <a href="https://bit.ly/368C4qt">muziek enzo</a>
                         <a href="https://bit.ly/368C4qt">muziek enzo</a>
