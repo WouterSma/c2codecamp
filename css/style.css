@@ -258,3 +258,18 @@ nav h1{
     background-color: #559457;
 }
 
+
+.tools_content{
+  color: #317f43;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.tools_content h1{
+  margin: 1rem;
+}
+
+.tools_content p{
+  color: #317f43;
+  margin: 1rem;
+}
