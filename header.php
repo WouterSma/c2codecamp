@@ -6,38 +6,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,600&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="../css/style.css">
     <title>C2CodeCamp</title>
+    <?php require_once "backend/config.php" ?>
 <header>
        <nav>
-            <img src="img/logo.png" alt="logo CodeCamp">
+            <img src="<?php echo $base_url ?>/img/logo.png" alt="logo CodeCamp">
             <div class="nav_links">
                 <div class="dropdown">
-                    <a class="dropdown_button" href="https://bit.ly/368C4qt">Home</a>
+                    <a class="dropdown_button" href="<?php echo $base_url ?>/index.php">Home</a>
                 </div>
                 <div class="dropdown">
-                    <a class="dropdown_button" href="https://bit.ly/368C4qt">Muziek</a>
+                    <a class="dropdown_button" href="<?php echo $base_url ?>/muziek/muziek.php">Muziek</a>
                     <div class="dropdown_content">
-                        <a href="https://bit.ly/368C4qt">Bohemian Rhapsody</a>
-                        <a href="https://bit.ly/368C4qt">muziek enzo</a>
-                        <a href="https://bit.ly/368C4qt">muziek enzo</a>
-                        <a href="https://bit.ly/368C4qt">muziek enzo</a>
+                        <a href="<?php echo $base_url ?>/muziek/bohemian.php">Bohemian Rhapsody</a>
+                        <a href="<?php echo $base_url ?>">muziek enzo</a>
+                        <a href="<?php echo $base_url ?>">muziek enzo</a>
+                        <a href="<?php echo $base_url ?>">muziek enzo</a>
                     </div>
                 </div>
                 <div class="dropdown">
-                    <a class="dropdown_button" href="https://bit.ly/368C4qt">informatie</a>
+                    <a class="dropdown_button" href="<?php echo $base_url ?>/informatie.php">informatie</a>
                     <div class="dropdown_content">
-                        <a href="https://bit.ly/368C4qt">info enzo</a>
-                        <a href="https://bit.ly/368C4qt">info enzo</a>
-                        <a href="https://bit.ly/368C4qt">info enzo</a>
-                        <a href="https://bit.ly/368C4qt">info enzo</a>
+                        <a href="<?php echo $base_url ?>">info enzo</a>
+                        <a href="<?php echo $base_url ?>">info enzo</a>
+                        <a href="<?php echo $base_url ?>">info enzo</a>
+                        <a href="<?php echo $base_url ?>">info enzo</a>
                     </div>
                 </div>
                 <div class="dropdown">
-                    <a class="dropdown_button" href="https://bit.ly/368C4qt">tools</a>
+                    <a class="dropdown_button" href="<?php echo $base_url ?>/tool.php">tools</a>
                     <div class="dropdown_content">
-                        <a href="https://bit.ly/368C4qt">tools enzo</a>
-                        <a href="https://bit.ly/368C4qt">tools enzo</a>
-                        <a href="https://bit.ly/368C4qt">tools enzo</a>
-                        <a href="https://bit.ly/368C4qt">tools enzo</a>
+                        <a href="<?php echo $base_url ?>">tools enzo</a>
+                        <a href="<?php echo $base_url ?>">tools enzo</a>
+                        <a href="<?php echo $base_url ?>">tools enzo</a>
+                        <a href="<?php echo $base_url ?>">tools enzo</a>
                     </div>
                 </div>
             </div>
