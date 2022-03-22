@@ -25,6 +25,7 @@
             <script src="javascript/anclock.js"></script>
         </div>
         <div id="clock"></div>
+        <div id="date"></div>
         <script src="javascript/clock.js"></script>
     </div>
     

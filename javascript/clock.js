@@ -1,6 +1,9 @@
 setInterval(showTime, 1000);
         function showTime() {
             let time = new Date();
+            let day = time.getDate();
+            let month = time.getMonth();
+            let year = time.getFullYear();
             let hour = time.getHours();
             let min = time.getMinutes();
             let sec = time.getSeconds();
@@ -11,7 +14,13 @@ setInterval(showTime, 1000);
   
             let currentTime = hour + ":" 
                 + min + ":" + sec;
+
+            let currentDate = day + "/"
+                + month + "/" + year;
   
+            document.getElementById("date")
+                .innerHTML = currentDate;
+
             document.getElementById("clock")
                 .innerHTML = currentTime;
         }
