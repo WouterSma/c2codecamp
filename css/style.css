@@ -280,6 +280,12 @@ nav h1{
   height: auto;
 }
 
+.information_blue{
+  border-top: 2px solid black;
+  color: white;
+  background-color: #317f43;
+}
+
 .bohemian{
   font-family: 'Source Sans Pro', sans-serif;
 }
