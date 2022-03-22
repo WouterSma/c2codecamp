@@ -35,10 +35,9 @@
                 <div class="dropdown">
                     <a class="dropdown_button" href="<?php echo $base_url ?>/tool.php">tools</a>
                     <div class="dropdown_content">
-                        <a href="<?php echo $base_url ?>">tools enzo</a>
-                        <a href="<?php echo $base_url ?>">tools enzo</a>
-                        <a href="<?php echo $base_url ?>">tools enzo</a>
-                        <a href="<?php echo $base_url ?>">tools enzo</a>
+                        <a href="<?php echo $base_url ?>/tools/hamers.php">Hamers</a>
+                        <a href="<?php echo $base_url ?>/tools/kettingzagen.php">Kettingzagen</a>
+                        <a href="<?php echo $base_url ?>/tools/cirkelzagen.php">Cirkelzagen</a>
                     </div>
                 </div>
             </div>
