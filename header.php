@@ -18,7 +18,7 @@
                     <a class="dropdown_button" href="<?php echo $base_url ?>/muziek/muziek.php">Muziek</a>
                     <div class="dropdown_content">
                         <a href="<?php echo $base_url ?>/muziek/bohemian.php">Bohemian Rhapsody</a>
-                        <a href="<?php echo $base_url ?>">muziek enzo</a>
+                        <a href="<?php echo $base_url ?>/muziek/champions.php">We Are The Champions</a>
                         <a href="<?php echo $base_url ?>">muziek enzo</a>
                         <a href="<?php echo $base_url ?>">muziek enzo</a>
                     </div>

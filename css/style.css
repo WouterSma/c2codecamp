@@ -300,9 +300,9 @@ nav h1{
   margin: 1rem;
 }
 
-.bohemian{
-  font-family: 'Source Sans Pro', sans-serif;
+.queen{
   background-color: #1100ff;
+  color: #cacaca;
 }
 .lyric{
   display: flex;
@@ -310,4 +310,6 @@ nav h1{
   width: 50%;
   margin: auto;
   padding: 50px;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */ -moz-column-count: 3; /* Firefox */ column-count: 3;
+  font-family: 'Source Sans Pro', sans-serif;
 }
