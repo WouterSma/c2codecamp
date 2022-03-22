@@ -290,6 +290,14 @@ nav h1{
   border-top: 2px solid black;
   color: white;
   background-color: #317f43;
+
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+.information_blue img{
+  margin: 1rem;
 }
 
 .bohemian{
