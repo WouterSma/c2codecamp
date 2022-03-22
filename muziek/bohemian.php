@@ -6,7 +6,7 @@
 <body class="bohemian">
     <?php require_once "../header.php"; ?>
 
-    <div class="lyric">
+    <div class="blyric">
     <p>Is this the real life? 
         Is this just fantasy?
         Caught in a landside,
