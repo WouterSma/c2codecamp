@@ -274,6 +274,12 @@ nav h1{
   margin: 1rem;
 }
 
+.tools_img img{
+  margin-top: 1rem;
+  max-width: 400px;
+  height: auto;
+}
+
 .bohemian{
   font-family: 'Source Sans Pro', sans-serif;
 }

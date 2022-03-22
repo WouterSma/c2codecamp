@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="dropdown">
-                    <a class="dropdown_button" href="<?php echo $base_url ?>/informatie.php">informatie</a>
+                    <a class="dropdown_button" href="<?php echo $base_url ?>/informatie/informatie.php">informatie</a>
                     <div class="dropdown_content">
                         <a href="<?php echo $base_url ?>">info enzo</a>
                         <a href="<?php echo $base_url ?>">info enzo</a>

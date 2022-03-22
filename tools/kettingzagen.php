@@ -16,7 +16,7 @@
                 <p>Een kettingzaag (ook motorzaag, motorkettingzaag of boomzaag genoemd) is een draagbare machine om mee te zagen. De belangrijkste functie is hout zagen.</p>
                 <P>Er zijn verschillende typen aandrijving voor kettingzagen: pneumatisch, hydraulisch, elektrisch en door middel van een verbrandingsmotor (vaak ook motorkettingzaag genoemd). De elektrische kettingzaag en de motorkettingzaag zijn het meest gangbaar.</p>
             </div>
-            <div>
+            <div class="tools_img">
             <img src="../img/kettingzaag.jpg" alt="img kettingzaag"> 
             </div>
         </div>
