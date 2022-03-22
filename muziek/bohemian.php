@@ -3,10 +3,10 @@
 <head>
     <title>C2CodeCamp</title>
 </head>
-<body>
+<body class="bohemian">
     <?php require_once "../header.php"; ?>
 
-    <div class="bohemian">
+    <div class="lyric">
     <p>Is this the real life? 
         Is this just fantasy?
         Caught in a landside,
