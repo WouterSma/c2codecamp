@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body class="redpage">
+
+    <?php require_once "../header.php"?>
     
+        <div class="lyric">
+            <img src="../img/transylviaironmaiden.png" alt="">
+        </div>
 </body>
 </html>
