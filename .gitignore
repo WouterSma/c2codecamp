@@ -3,3 +3,4 @@
 # Useful .gitignore templates: https://github.com/github/gitignore
 
 backend/config.php
+.vscode/settings.json
