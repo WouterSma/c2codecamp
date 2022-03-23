@@ -19,6 +19,7 @@
                     <div class="dropdown_content">
                         <a href="<?php echo $base_url ?>/muziek/bohemian.php">Bohemian Rhapsody ~ Queen</a>
                         <a href="<?php echo $base_url ?>/muziek/champions.php">We Are The Champions ~ Queen</a>
+                        <a href="<?php echo $base_url ?>/muziek/killer.php"> Killer Queen ~ Queen</a>
                         <a href="<?php echo $base_url ?>/muziek/uprisingbaby.php">Uprising ~ My Baby</a>
                         <a href="<?php echo $base_url ?>/muziek/uprisingmuse.php">Uprising ~ Muse</a>
                         <a href="<?php echo $base_url ?>/muziek/plugbaby.php">Plug In ~ Muse</a>
@@ -29,10 +30,9 @@
                 <div class="dropdown">
                     <a class="dropdown_button" href="<?php echo $base_url ?>/informatie/informatie.php">informatie</a>
                     <div class="dropdown_content">
-                        <a href="<?php echo $base_url ?>/informatie/informatie.php">Links</a>
+                        <a href="<?php echo $base_url ?>/informatie/links.php">Links</a>
                         <a href="<?php echo $base_url ?>/informatie/timothydalton.php">Timothy Dalton</a>
                         <a href="<?php echo $base_url ?>/informatie/rogermoore.php">Roger Moore</a>
-                        <a href="<?php echo $base_url ?>">info enzo</a>
                     </div>
                 </div>
                 <div class="dropdown">
