@@ -32,7 +32,6 @@
                         <a href="<?php echo $base_url ?>/informatie/links.php">Links</a>
                         <a href="<?php echo $base_url ?>/informatie/timothydalton.php">Timothy Dalton</a>
                         <a href="<?php echo $base_url ?>/informatie/rogermoore.php">Roger Moore</a>
-                        <a href="<?php echo $base_url ?>">info enzo</a>
                     </div>
                 </div>
                 <div class="dropdown">
