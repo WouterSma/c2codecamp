@@ -29,7 +29,7 @@
                 <div class="dropdown">
                     <a class="dropdown_button" href="<?php echo $base_url ?>/informatie/informatie.php">informatie</a>
                     <div class="dropdown_content">
-                        <a href="<?php echo $base_url ?>/informatie/informatie.php">Links</a>
+                        <a href="<?php echo $base_url ?>/informatie/links.php">Links</a>
                         <a href="<?php echo $base_url ?>/informatie/timothydalton.php">Timothy Dalton</a>
                         <a href="<?php echo $base_url ?>/informatie/rogermoore.php">Roger Moore</a>
                         <a href="<?php echo $base_url ?>">info enzo</a>
