@@ -10,6 +10,13 @@
 <body>
     <?php require_once("../header.php") ?>
     <div class="container">
+        <h1>Informatie Pagina's</h1>
+        <ul>
+            <li><a href="<?php echo $base_url ?>/informatie/links.php">Links</a></li>
+            <li><a href="<?php echo $base_url ?>/informatie/timothydalton.php">Timothy Dalton</a></li>
+            <li><a href="<?php echo $base_url ?>/informatie/rogermoore.php">Roger Moore</a></li>
+        </ul>
+
        
     </div>
 
