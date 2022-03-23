@@ -17,10 +17,13 @@
                 <div class="dropdown">
                     <a class="dropdown_button" href="<?php echo $base_url ?>/muziek/muziek.php">Muziek</a>
                     <div class="dropdown_content">
-                        <a href="<?php echo $base_url ?>/muziek/bohemian.php">Bohemian Rhapsody</a>
-                        <a href="<?php echo $base_url ?>/muziek/champions.php">We Are The Champions</a>
+                        <a href="<?php echo $base_url ?>/muziek/bohemian.php">Bohemian Rhapsody ~ Queen</a>
+                        <a href="<?php echo $base_url ?>/muziek/champions.php">We Are The Champions ~ Queen</a>
                         <a href="<?php echo $base_url ?>/muziek/uprisingbaby.php">Uprising ~ My Baby</a>
                         <a href="<?php echo $base_url ?>/muziek/uprisingmuse.php">Uprising ~ Muse</a>
+                        <a href="<?php echo $base_url ?>/muziek/plugbaby.php">Plug In ~ Muse</a>
+                        <a href="<?php echo $base_url ?>/muziek/transylvia.php">Transylvia ~ Iron Maiden</a>
+                        <a href="<?php echo $base_url ?>/muziek/madness.php">Madness ~ Muse</a>
                     </div>
                 </div>
                 <div class="dropdown">
