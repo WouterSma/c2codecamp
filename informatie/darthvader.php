@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>CodeCamp</title>
 </head>
-<body>
+<body class="vader">
     <?php require_once("../header.php") ?>
     
 </body>
