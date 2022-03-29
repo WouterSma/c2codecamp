@@ -1,5 +1,6 @@
 setInterval(showTime, 1000);
         function showTime() {
+            
             let time = new Date();
             let day = time.getDate();
             let month = time.getMonth();
@@ -7,6 +8,8 @@ setInterval(showTime, 1000);
             let hour = time.getHours();
             let min = time.getMinutes();
             let sec = time.getSeconds();
+
+            month = month + 1;
 
             hour = hour < 10 ? "0" + hour : hour;
             min = min < 10 ? "0" + min : min;
