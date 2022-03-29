@@ -17,7 +17,7 @@
                 <P>Er zijn verschillende typen aandrijving voor kettingzagen: pneumatisch, hydraulisch, elektrisch en door middel van een verbrandingsmotor (vaak ook motorkettingzaag genoemd). De elektrische kettingzaag en de motorkettingzaag zijn het meest gangbaar.</p>
             </div>
             <div class="tools_img">
-            <img src="../img/kettingzaag.jpg" alt="img kettingzaag"> 
+                <img src="../img/kettingzaag.jpg" alt="img kettingzaag"> 
             </div>
         </div>
     </div>

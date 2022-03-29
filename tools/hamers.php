@@ -16,7 +16,7 @@
                 <p>Een hamer is een klop- of slagwerktuig. Een hamer bestaat uit een steel, het handvat, met aan het eind de zogenaamde hamerkop. De vorm en grootte en het materiaal van de hamerkop en de lengte van de steel hangen sterk af van het type hamer. Bij hamers met een ijzeren hamerkop staat vaak het aantal grammen in het metaal geslagen. Voor speciale uitvoeringen, zoals voor percussie-instrumenten, wordt ook de term mallet (uit het Engels) gebruikt.</p>
             </div>
             <div class="tools_img">
-            <img src="../img/hamer.png" alt="img hamer">
+                <img src="../img/hamer.png" alt="img hamer">
             </div>
             
     </div>
