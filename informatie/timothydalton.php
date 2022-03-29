@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php session_start(); ?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +9,7 @@
     <title>CodeCamp</title>
 </head>
 <body>
+    
     <?php require_once("../header.php") ?>
     <div class="container">
     <h1>Timothy Dalton</h1>

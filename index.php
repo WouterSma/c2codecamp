@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php session_start(); ?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>CodeCamp</title>
 </head>
+
 <body>
         <?php require_once "header.php"; ?>
    <div class="container">

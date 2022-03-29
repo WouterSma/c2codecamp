@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>C2CodeCamp</title>
     <?php require_once "backend/config.php" ?>
+    
+    <?php
+    $status = session_status();
+    if($status == PHP_SESSION_NONE){
+        
+        session_start();
+    }
+?>
+     
+    
 <header>
        <nav>
             <img src="<?php echo $base_url ?>/img/logo.png" alt="logo CodeCamp">
@@ -47,6 +57,14 @@
                 <div class="dropdown">
                     <a class="dropdown_button" href="<?php echo $base_url ?>/tweeter/index.php">Tweeter</a>
                 </div>
+                <div class="dropdown">
+                <?php if(isset($_SESSION['user_id'])):?>
+                    <a class="dropdown_button" href="<?php echo $base_url; ?>/logout.php">Logout</a>
+                <?php else: ?>
+                    <a class="dropdown_button" href="<?php echo $base_url; ?>/login.php">Login</a>
+                <?php endif ?>
+                </div>
+                
             </div>
        </nav>
 </header>

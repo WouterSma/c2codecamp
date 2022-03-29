@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php session_start(); ?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +9,9 @@
     <title>CodeCamp</title>
 </head>
 <body>
+    
     <?php require_once("../header.php") ?>
+    
     <div class="container">
         <h1>Links:</h1>
         <h3><a href="http://www.imdb.com">IMDB</a></h3>

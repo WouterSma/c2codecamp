@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php session_start(); ?>
 <?php require_once "../header.php" ?>
 <body>
         <div class="container">
             <form action="../backend/twitController.php" method="POST">
             <input type="hidden" name="action" value="create">
-            <div class="form-group">
-                <label for="user">User:</label>
-                <input type="text" name="user" id="user" class="form-input">
-            </div>
+            <input type="hidden" name="user" id="user" value="<?php echo $_SESSION['username'] ?>">
             <div class="form-group">
                 <label for="title">Title:</label>
                 <input type="text" name="title" id="title" class="form-input">
