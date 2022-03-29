@@ -8,11 +8,11 @@ if($action == "create")
     $title = $_POST['title'];
 
     if(empty($twit)){
-        $errors[] = "You cant send empty twits!";
+        $errors = "You cant send empty twits!";
     }
 
     if(empty($title)){
-        $errors[] = "Enter a title!";
+        $errors = "Enter a title!";
     }
 
     function alert($errors){
@@ -20,8 +20,7 @@ if($action == "create")
     }
 
     if(isset($errors)){
-        var_dump($errors);
-        die();
+        die($errors);
     }
 
 
