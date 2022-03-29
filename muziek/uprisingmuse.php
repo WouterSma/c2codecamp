@@ -48,6 +48,7 @@
                 We will be victorious<br>
                 (So come on)<br>
             </p>
-        </div> 
+        </div>
+        <?php require_once("../footer.php") ?>
 </body>
 </html>
