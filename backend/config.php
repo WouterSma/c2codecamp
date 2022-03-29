@@ -1,7 +1,7 @@
 <?php
 
 $dbHost = 'localhost';
-$dbName = 'storingapp';
+$dbName = 'codecamp';
 $dbUser = 'root';
 $dbPass = '';
 

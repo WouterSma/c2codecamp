@@ -40,6 +40,30 @@ nav h1{
     font-size: 2.65rem;
 }
 
+.twits{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  padding-top: 2rem;
+}
+
+.twit{
+  border: 2px solid black;
+  max-width: 30rem;
+  min-width: 30rem;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.form-group{
+  margin: 1rem 0;
+}
+
+.form-input{
+  width: 600px;
+}
+
 .container{
     display: flex;
     align-items: center;

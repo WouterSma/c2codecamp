@@ -44,6 +44,9 @@
                         <a href="<?php echo $base_url ?>/tools/cirkelzagen.php">Cirkelzagen</a>
                     </div>
                 </div>
+                <div class="dropdown">
+                    <a class="dropdown_button" href="<?php echo $base_url ?>/tweeter/index.php">Tweeter</a>
+                </div>
             </div>
        </nav>
 </header>
