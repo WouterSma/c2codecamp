@@ -7,10 +7,6 @@ if($action == "create")
     $twit = $_POST['twit']; 
     $title = $_POST['title'];
 
-    if(empty($user)){
-        $errors[] = "Vul de user in!";
-    }
-
     if(empty($twit)){
         $errors[] = "You cant send empty twits!";
     }
@@ -28,15 +24,11 @@ if($action == "create")
         die();
     }
 
-    //1. Verbinding
-    require_once 'conn.php';
 
-    //2. Query
-    $query = "INSERT INTO twits (user, message, title) 
-                VALUES(:user, :message, :title)";
-    //3. Prepare
+    require_once 'conn.php';
+    $query = "  INSERT INTO twits (user, message, title) 
+                            VALUES(:user, :message, :title)";
     $statement = $conn->prepare($query);
-    //4. Execute
     $statement->execute([
         ":message"=>$twit,
         ":user"=>$user,
