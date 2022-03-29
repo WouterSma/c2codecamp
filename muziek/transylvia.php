@@ -14,5 +14,7 @@
         <div class="lyric">
             <img src="../img/transylviaironmaiden.png" alt="">
         </div>
+
+        <?php require_once("../footer.php") ?>
 </body>
 </html>

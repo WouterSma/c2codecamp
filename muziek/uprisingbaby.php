@@ -47,5 +47,6 @@
                 This girl keeps on rising<br>
                 Keep on rising up<br>
         </p>
+        <?php require_once("../footer.php") ?>
 </body>
 </html>

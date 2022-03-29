@@ -13,5 +13,7 @@
     <a href="hamers.php">Hamers</a>
     <a href="kettingzagen.php">Kettingzagen</a>
     <a href="cirkelzagen.php">Cirkelzagen</a>
+
+    <?php require_once("../footer.php") ?>
 </body>
 </html>
