@@ -41,7 +41,7 @@ if($action == "create"){
     $statement->execute([":name" => $username]);
     $user = $statement->fetch(PDO::FETCH_ASSOC);
 
-    if(!isset($user)){
+    if(!empty($user)){
         die("Error: account bestaat al");
     }
 
@@ -53,5 +53,5 @@ if($action == "create"){
         ":name" => $username,
         ":password" => $hashedP
     ]);
-    header("Location:../index.php");
+    header("Location:../login.php?msg=account gemaakt!");
 }
