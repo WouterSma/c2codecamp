@@ -34,5 +34,27 @@ if($action == "create")
         ":title"=>$title
     ]);
 
-    header("Location:../tweeter/index.php?msg=twitopgeslagen");
+    header("Location:../tweeter/index.php?msg=twit opgeslagen");
+}
+
+if($action == "comment")
+{
+    $id = $_GET['id'];
+    $user = $_POST['user'];
+    $comment = $_POST['comment']; 
+
+    if(empty($comment)){
+        $errors = "You cant send empty comments!";
+    }
+    require_once 'conn.php';
+    $query = "  INSERT INTO comments (user, comment, twit_id) 
+                            VALUES(:user, :comment, :twit_id)";
+    $statement = $conn->prepare($query);
+    $statement->execute([
+        ":comment"=>$comment,
+        ":user"=>$user,
+        ":twit_id"=>$id
+    ]);
+    header("Location:../tweeter/index.php?msg=comment opgeslagen");
+
 }

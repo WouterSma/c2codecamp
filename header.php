@@ -7,14 +7,6 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>C2CodeCamp</title>
     <?php require_once "backend/config.php" ?>
-    
-    <?php
-    $status = session_status();
-    if($status == PHP_SESSION_NONE){
-        
-        session_start();
-    }
-?>
      
     
 <header>

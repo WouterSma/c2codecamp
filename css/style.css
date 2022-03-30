@@ -56,6 +56,20 @@ nav h1{
   margin-top: 0.5rem;
 }
 
+.comments{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.comment{
+  border: 1px solid black;
+  max-width: 25rem;
+  min-width: 25rem;
+  margin-bottom: 0.25rem;
+  margin-top: 0.25rem;
+}
+
 .form-group{
   margin: 1rem 0;
 }
