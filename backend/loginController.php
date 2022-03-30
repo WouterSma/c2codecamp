@@ -33,6 +33,13 @@ if($action == "create"){
     $username = $_POST['name'];
     $password = $_POST['password'];
 
+    if(empty($password)){
+        die("Error: Enter a password!");
+    }
+    if(empty($username)){
+        die("Error: Enter a username!");
+    }
+
     $hashedP = password_hash($password, 1);
 
     require_once 'conn.php';
