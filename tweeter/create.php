@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php session_start(); ?>
+<?php if(empty($_SESSION['username'])){
+    die("You have too be logged in too post a twit!");
+} ?>
 <?php require_once "../header.php" ?>
+
 <body>
         <div class="container">
             <form action="../backend/twitController.php" method="POST">
