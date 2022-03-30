@@ -65,6 +65,9 @@
                 <?php endif ?>
                 </div>
                 
+                <div class="dropdown">
+                    <a class="dropdown_button" href="<?php echo $base_url; ?>/logout.php">Logout</a>
             </div>
+
        </nav>
 </header>
