@@ -46,6 +46,29 @@
                         <a href="<?php echo $base_url ?>/tools/cirkelzagen.php">Cirkelzagen</a>
                     </div>
                 </div>
+
+                <div class="dropdown">
+                    <a class="dropdown_button" href="<?php echo $base_url ?>/tool.php">dranken</a>
+                    <div class="dropdown_content_double">
+                        <div class="subdropdown">
+                            <a class="dropdown_subbutton" href="<?php echo $base_url ?>">warm</a>
+                            <div class="dropdown_subcontent">
+                                <a href="">test</a>
+                                <a href="">test</a>
+                                <a href="">test</a>
+                            </div>
+                        </div>
+                        <div class="subdropdown">
+                            <a class="dropdown_subbutton" href="<?php echo $base_url ?>">koud</a>
+                            <div class="dropdown_subcontent">
+                                <a href="">test2</a>
+                                <a href="">test2</a>
+                                <a href="">test2</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="dropdown">
                     <a class="dropdown_button" href="<?php echo $base_url ?>/tweeter/index.php">Tweeter</a>
                 </div>

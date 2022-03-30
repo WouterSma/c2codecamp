@@ -263,10 +263,23 @@ nav h1{
     font-size: 16px;
 }
 
+.dropdown_subbutton {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+}
+
 .dropdown {
     position: relative;
     display: inline-block;
     max-height: 40px;
+}
+
+.subdropdown {
+  position: relative;
+  display: inline-block;
+  max-height: 40px;
 }
   
 .dropdown_content {
@@ -278,28 +291,79 @@ nav h1{
     z-index: 1;
 }
   
-  .dropdown_content a {
+.dropdown_content_double {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown_subcontent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+.dropdown_content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
+
+.dropdown_content_double a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown_subcontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
   
 .dropdown_content a:hover {
       background-color: #ddd;
+}
+
+.subdropdown .dropdown_subcontent a:hover {
+  background-color: #ddd;
 }
   
 .dropdown:hover .dropdown_content {
       display: block;
 }
-  
+
+.dropdown:hover .dropdown_content_double {
+  display: block;
+}
+
+.subdropdown:hover .dropdown_subcontent {
+  display: block;
+}
+
 .dropdown .dropdown_button:hover {
       background-color: #317f43;
+}
+
+.subdropdown .dropdown_subbutton:hover {
+  background-color: #317f43;
 }
 
 .dropdown .dropdown_button{
     box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.2);
     background-color: #559457;
+}
+
+.subdropdown .dropdown_subbutton{
+  box-shadow: 2px 3px 3px 0px rgba(0,0,0,0.2);
+  background-color: #559457;
 }
 
 
