@@ -413,6 +413,11 @@ nav h1{
 .redpage{
   background-color: #ff0000;
 }
+
+.orangepage{
+  background-color: orange;
+}
+
 .lyric{
   display: flex;
   justify-content: center;
@@ -432,3 +437,4 @@ ul{
 li{
   margin: 1rem;
 }
+
