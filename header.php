@@ -47,7 +47,7 @@
                     </div>
                 </div>
                 <div class="dropdown">
-                    <a class="dropdown_button" href="<?php echo $base_url ?>/tool.php">tools</a>
+                    <a class="dropdown_button" href="<?php echo $base_url ?>/tools/tool.php">tools</a>
                     <div class="dropdown_content">
                         <a href="<?php echo $base_url ?>/tools/hamers.php">Hamers</a>
                         <a href="<?php echo $base_url ?>/tools/kettingzagen.php">Kettingzagen</a>
