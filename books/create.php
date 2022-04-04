@@ -11,4 +11,23 @@
 
 <body>
     <?php require_once "../header.php"; ?>
+    <div class="container">
+        <form action="../backend/bookController.php" method="POST">
+            <input type="hidden" name="action" value="create">
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" name="title" id="title" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="author">Author: </label>
+                <input type="text" name="author" id="author" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="num_pages">Number of pages: </label>
+                <input type="num_pages" name="num_pages" id="num_pagesw" class="form-input">
+            </div>
+            <input type="submit" value="Post book">
+        </form>
+    </div>
+    
 </body>

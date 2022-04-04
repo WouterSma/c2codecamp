@@ -11,4 +11,40 @@
 
 <body>
     <?php require_once "../header.php"; ?>
+        
+    <?php 
+    $id = $_GET['id'];
+    require_once "../backend/conn.php";
+    $query = "SELECT * FROM books WHERE id = :id";
+    $statement = $conn->prepare($query);
+    $statement->execute([
+        ":id"=>$id
+    ]);
+    $book = $statement->fetch(PDO::FETCH_ASSOC);
+    ?>
+    <div class="container">
+        <form action="../backend/bookController.php" method="POST">
+            <input type="hidden" name="action" value="edit">
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" name="title" id="title" class="form-input" value="<?php echo $book['title'] ?>">
+            </div>
+            <div class="form-group">
+                <label for="author">Author: </label>
+                <input type="text" name="author" id="author" class="form-input" value="<?php echo $book['author'] ?>">
+            </div>
+            <div class="form-group">
+                <label for="num_pages">Number of pages: </label>
+                <input type="num_pages" name="num_pages" id="num_pagesw" class="form-input" value="<?php echo $book['num_pages'] ?>">
+            </div>
+            <input type="submit" value="Post book">
+        </form>
+        <form action="../backend/bookController.php" method="POST">
+            <input type="hidden" name="action" value="delete">
+            <input type="hidden" name="id" value="<?php echo $book['id'] ?>">
+            <input type="submit" value="delete book">
+        </form>
+        
+    </div>
+        
 </body>
