@@ -44,6 +44,7 @@
                         <a href="<?php echo $base_url ?>/tools/hamers.php">Hamers</a>
                         <a href="<?php echo $base_url ?>/tools/kettingzagen.php">Kettingzagen</a>
                         <a href="<?php echo $base_url ?>/tools/cirkelzagen.php">Cirkelzagen</a>
+                        <a href="<?php echo $base_url ?>/tools/handzagen.php">Handzagen</a>
                     </div>
                 </div>
 
