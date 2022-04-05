@@ -60,5 +60,5 @@ if($action == "create"){
         ":name" => $username,
         ":password" => $hashedP
     ]);
-    header("Location:../login.php?msg=account gemaakt!");
+    header("Location:../login.php?msg=account created!");
 }

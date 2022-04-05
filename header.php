@@ -70,6 +70,10 @@
                 </div>
 
                 <div class="dropdown">
+                    <a class="dropdown_button" href="<?php echo $base_url ?>/books/index.php">books</a>
+                </div>
+
+                <div class="dropdown">
                     <a class="dropdown_button" href="<?php echo $base_url ?>/tweeter/index.php">Tweeter</a>
                 </div>
                 <div class="dropdown">

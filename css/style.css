@@ -222,13 +222,6 @@ nav h1{
     width: 45%;
     height: 2px;
   }
-
-  .dropdown_button {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-}
   
 .nav_links{
     display: flex;
@@ -366,6 +359,7 @@ nav h1{
   background-color: #559457;
 }
 
+/* End dropdown code*/
 
 .tools_content{
   color: #317f43;
@@ -438,3 +432,33 @@ li{
   margin: 1rem;
 }
 
+.books{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+}
+
+.book{
+  display: flex;
+  border: 3px solid black;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+body .books{
+  margin: 0 auto;
+  margin-top: 1rem;
+  max-width: 960px;
+}
+
+.books a:any-link{
+  text-decoration: none;
+    color: #000000;
+}
+
+.books .dropdown_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

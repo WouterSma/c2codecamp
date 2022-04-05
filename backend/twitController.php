@@ -34,7 +34,7 @@ if($action == "create")
         ":title"=>$title
     ]);
 
-    header("Location:../tweeter/index.php?msg=twit opgeslagen");
+    header("Location:../tweeter/index.php?msg=twit saved");
 }
 
 if($action == "comment")
