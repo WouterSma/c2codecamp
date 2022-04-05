@@ -36,6 +36,7 @@
                         <a href="<?php echo $base_url ?>/informatie/timothydalton.php">Timothy Dalton</a>
                         <a href="<?php echo $base_url ?>/informatie/rogermoore.php">Roger Moore</a>
                         <a href="<?php echo $base_url ?>/informatie/darthvader.php">Darth Vader</a>
+                        <a href="<?php echo $base_url ?>/informatie/clooney.php">George Clooney</a>
                     </div>
                 </div>
                 <div class="dropdown">
