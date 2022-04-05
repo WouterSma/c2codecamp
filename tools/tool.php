@@ -14,6 +14,7 @@
     <a href="hamers.php">Hamers</a>
     <a href="kettingzagen.php">Kettingzagen</a>
     <a href="cirkelzagen.php">Cirkelzagen</a>
+    <a href="handzagen.php">Handzagen</a>
 
     <?php require_once("../footer.php") ?>
 </body>
