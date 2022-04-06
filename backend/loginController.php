@@ -24,6 +24,7 @@ if($action == "login"){
     
     $_SESSION['user_id'] = $user['id'];
     $_SESSION['username'] = $user['name'];
+    $_SESSION['admin'] = $user['admin'];
 
     header("Location:../index.php");
 }

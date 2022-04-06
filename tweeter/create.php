@@ -21,7 +21,7 @@
             </div>
             <input type="submit" value="Post twit">
 
-        </form>
+            </form>
         </div>
         
 </body>

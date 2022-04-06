@@ -11,6 +11,12 @@
 
 <body>
     <?php require_once "../header.php"; ?>
+
+    <?php
+        if(!$_SESSION['admin'] == 1){
+            die("You have too be an admin too post a book!");
+        }
+    ?>
     <div class="container">
         <form action="../backend/bookController.php" method="POST">
             <input type="hidden" name="action" value="create">

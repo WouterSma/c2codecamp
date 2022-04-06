@@ -68,7 +68,7 @@ if($action == "edit")
 
 
     require_once 'conn.php';
-    $query = "UPDATE meldingen SET author = :author, num_pages = :num_pages, title = :title WHERE id = :id";
+    $query = "UPDATE books SET author = :author, num_pages = :num_pages, title = :title WHERE id = :id";
     $statement = $conn->prepare($query);
     $statement->execute([
         ":id"=>$id,

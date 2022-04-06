@@ -11,7 +11,11 @@
 
 <body>
     <?php require_once "../header.php"; ?>
-        
+    <?php
+        if(!$_SESSION['admin'] == 1){
+            die("You have too be an admin too edit a book!");
+        }
+    ?>
     <?php 
     $id = $_GET['id'];
     require_once "../backend/conn.php";
