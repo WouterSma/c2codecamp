@@ -26,11 +26,32 @@
             <h4>By: <?php echo $book['author'] ?></h4>
             <p>Pages: <?php echo $book['num_pages'] ?></p>
             <a href="edit.php?id=<?php echo $book['id'] ?>">edit</a>
-            <div class="likebutton">
-            <a href="#">
-                Like
-            </a>
-        </div>
+            <form action="../backend/bookController.php" method="POST">
+                <?php
+                    $user_id = $_SESSION['user_id'];
+                    require_once '../backend/conn.php';
+                    $query = "SELECT user_id FROM liked_books WHERE (user_id = :user_id AND book_id = :book_id)";
+                    $statement = $conn->prepare($query);
+                    $statement->execute([
+                        ":book_id"=>$book['id'],
+                        ":user_id"=>$user_id
+                    ]);
+                    $liked_book = $statement->fetchAll(PDO::FETCH_ASSOC);
+
+                    if(empty($liked_book)):
+                ?>
+                <input type="hidden" name="action" id="action" value="like">
+                <input type="hidden" name="book_id" id="book_id" value="<?php echo $book['id']; ?>">
+                <input type="hidden" name="user_id" id="user_id" value="<?php echo $_SESSION['user_id']; ?>">
+                <input type="image" src="../img/like.png" alt="like button" name="submit">
+                <?php else: ?>
+            
+                <input type="hidden" name="action" id="action" value="unlike">
+                <input type="hidden" name="book_id" id="book_id" value="<?php echo $book['id']; ?>">
+                <input type="hidden" name="user_id" id="user_id" value="<?php echo $_SESSION['user_id']; ?>">
+                <input type="image" src="../img/liked.png" alt="liked button" name="submit">
+                <?php endif; ?>
+            </form>
         </div>
         <?php endforeach; ?>
     </div>

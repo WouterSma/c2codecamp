@@ -82,6 +82,7 @@ if($action == "edit")
 if($action == "delete")
 {
     $id = $_POST['id'];
+
     require_once 'conn.php';
     $query = "DELETE FROM books WHERE id = :id";
     $statement = $conn->prepare($query);
@@ -95,4 +96,30 @@ if($action == "like")
 {
     $book_id = $_POST['book_id'];
     $user_id = $_POST['user_id'];
+
+    require_once 'conn.php';
+    $query = "  INSERT INTO liked_books (book_id, user_id) 
+                            VALUES(:book_id, :user_id)";
+    $statement = $conn->prepare($query);
+    $statement->execute([
+        ":book_id"=>$book_id,
+        ":user_id"=>$user_id
+    ]);
+
+    header("Location:../books/index.php?msg=book liked!");
+}
+if($action == "unlike")
+{
+    $book_id = $_POST['book_id'];
+    $user_id = $_POST['user_id'];
+
+    require_once 'conn.php';
+    $query = "  DELETE FROM liked_books WHERE (book_id = :book_id AND user_id = :user_id)";
+    $statement = $conn->prepare($query);
+    $statement->execute([
+        ":book_id"=>$book_id,
+        ":user_id"=>$user_id
+    ]);
+
+    header("Location:../books/index.php?msg=book unliked!");
 }
