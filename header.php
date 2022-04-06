@@ -80,6 +80,14 @@
                 <div class="dropdown">
                     <a class="dropdown_button" href="<?php echo $base_url ?>/tweeter/index.php">Tweeter</a>
                 </div>
+
+                <?php if(isset($_SESSION['user_id'])):?>
+                <?php if($_SESSION['role'] == "admin"):?>
+                <div class="dropdown">
+                    <a class="dropdown_button" href="<?php echo $base_url ?>/admin.php">Manage accounts</a>
+                </div>
+                <?php endif ?>
+                <?php endif ?>
                 <div class="dropdown">
                 <?php if(isset($_SESSION['user_id'])):?>
                     <a class="dropdown_button" href="<?php echo $base_url; ?>/logout.php">Logout</a>
