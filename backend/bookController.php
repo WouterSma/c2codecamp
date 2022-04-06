@@ -91,3 +91,8 @@ if($action == "delete")
 
     header("Location:../books/index.php?msg=Book deleted");
 }
+if($action == "like")
+{
+    $book_id = $_POST['book_id'];
+    $user_id = $_POST['user_id'];
+}
