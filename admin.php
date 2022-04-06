@@ -21,12 +21,21 @@
         die("Only admins may view this page!");
     }
     ?>
-
-    <?php if(!$_SESSION['role'] == "admin")
-    {
-        die("Only admins may view this page!");
-    }
+    
+    <?php
+        require_once 'backend/conn.php';
+        $query = "SELECT * FROM users";
+        $statement = $conn->prepare($query);
+        $statement->execute();
+        $users = $statement->fetchAll(PDO::FETCH_ASSOC);
     ?>
 
-    
+    <div class="users">
+    <?php foreach($users as $user): ?>
+        <div class="user">
+            <p><?php echo $user['name']; ?></p>
+            <p><?php echo $user['role']; ?></p>
+        </div>
+    <?php endforeach; ?>
+    </div>
 </body>
