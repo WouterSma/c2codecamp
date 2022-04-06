@@ -24,7 +24,7 @@ if($action == "login"){
     
     $_SESSION['user_id'] = $user['id'];
     $_SESSION['username'] = $user['name'];
-    $_SESSION['admin'] = $user['admin'];
+    $_SESSION['role'] = $user['role'];
 
     header("Location:../index.php");
 }
@@ -54,12 +54,13 @@ if($action == "create"){
     }
 
     require_once 'conn.php';
-    $query = "  INSERT INTO users (name, password)
-                        VALUES(:name, :password)";
+    $query = "  INSERT INTO users (name, password, role)
+                        VALUES(:name, :password, :role)";
     $statement = $conn->prepare($query);
     $statement->execute([
         ":name" => $username,
-        ":password" => $hashedP
+        ":password" => $hashedP,
+        ":role" => "user"
     ]);
     header("Location:../login.php?msg=account created!");
 }
