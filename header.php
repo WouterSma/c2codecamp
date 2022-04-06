@@ -17,7 +17,7 @@
                     <a class="dropdown_button" href="<?php echo $base_url ?>/index.php">Home</a>
                 </div>
                 <div class="dropdown">
-                    <a class="dropdown_button" href="<?php echo $base_url ?>/muziek/muziek.php">Muziek</a>
+                    <a class="dropdown_button" href="#">Muziek</a>
                     <div class="dropdown_content">
                         <a href="<?php echo $base_url ?>/muziek/bohemian.php">Bohemian Rhapsody ~ Queen</a>
                         <a href="<?php echo $base_url ?>/muziek/champions.php">We Are The Champions ~ Queen</a>
@@ -84,7 +84,7 @@
                 <?php if(isset($_SESSION['user_id'])):?>
                 <?php if($_SESSION['role'] == "admin"):?>
                 <div class="dropdown">
-                    <a class="dropdown_button" href="<?php echo $base_url ?>/admin.php">Manage accounts</a>
+                    <a class="dropdown_button" href="<?php echo $base_url ?>/admin/index.php">Manage accounts</a>
                 </div>
                 <?php endif ?>
                 <?php endif ?>

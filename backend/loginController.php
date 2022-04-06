@@ -64,3 +64,39 @@ if($action == "create"){
     ]);
     header("Location:../login.php?msg=account created!");
 }
+if($action == "edit")
+{
+    if(!isset($_SESSION['role']))
+    {
+        die("Only admins may edit roles!");
+    }
+    elseif(!$_SESSION['role'] == "admin")
+    {
+        die("Only admins may edit roles!");
+    }
+    
+    $id = $_POST['id'];
+    $role = $_POST['role'];
+
+    require_once 'conn.php';
+    $query = "UPDATE users SET role = :role WHERE id = :id";
+    $statement = $conn->prepare($query);
+    $statement->execute([
+        ":id"=>$id,
+        ":role"=>$role
+    ]);
+    header("Location:../admin/index.php?msg=user saved!");
+}
+if($action == "delete")
+{
+    $id = $_POST['id'];
+
+    require_once 'conn.php';
+    $query = "DELETE FROM users WHERE id = :id";
+    $statement = $conn->prepare($query);
+    $statement->execute([
+        ":id"=>$id
+    ]);
+
+    header("Location:../admin/index.php?msg=user deleted");
+}

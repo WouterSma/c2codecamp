@@ -13,7 +13,7 @@
     <?php require_once "../header.php"; ?>
 
     <?php
-        if(!$_SESSION['admin'] == 1){
+        if(!$_SESSION['role'] == "admin"){
             die("You have too be an admin too post a book!");
         }
     ?>

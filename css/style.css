@@ -504,3 +504,20 @@ body .books{
 .likebutton:visited{
   background-color: greenyellow;
 }
+
+table{
+  width: 100%;
+}
+
+th{
+  text-align: left;
+}
+
+.users{
+background-color: rgb(238, 238, 238);
+}
+
+.first-line{
+background-color: lightgray;
+}
+

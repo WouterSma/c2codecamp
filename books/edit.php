@@ -12,7 +12,7 @@
 <body>
     <?php require_once "../header.php"; ?>
     <?php
-        if(!$_SESSION['admin'] == 1){
+        if(!$_SESSION['role'] == "admin"){
             die("You have too be an admin too edit a book!");
         }
     ?>
@@ -31,15 +31,15 @@
             <input type="hidden" name="action" value="edit">
             <div class="form-group">
                 <label for="title">Title:</label>
-                <input type="text" name="title" id="title" class="form-input" value="<?php echo $book['title'] ?>">
+                <input type="text" name="title" id="title" class="form-input">
             </div>
             <div class="form-group">
                 <label for="author">Author: </label>
-                <input type="text" name="author" id="author" class="form-input" value="<?php echo $book['author'] ?>">
+                <input type="text" name="author" id="author" class="form-input">
             </div>
             <div class="form-group">
                 <label for="num_pages">Number of pages: </label>
-                <input type="num_pages" name="num_pages" id="num_pagesw" class="form-input" value="<?php echo $book['num_pages'] ?>">
+                <input type="num_pages" name="num_pages" id="num_pagesw" class="form-input">
             </div>
             <input type="submit" value="Post book">
         </form>
