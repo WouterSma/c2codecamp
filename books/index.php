@@ -26,6 +26,11 @@
             <h4>By: <?php echo $book['author'] ?></h4>
             <p>Pages: <?php echo $book['num_pages'] ?></p>
             <a href="edit.php?id=<?php echo $book['id'] ?>">edit</a>
+            <div class="likebutton">
+            <a href="#">
+                Like
+            </a>
+        </div>
         </div>
         <?php endforeach; ?>
     </div>

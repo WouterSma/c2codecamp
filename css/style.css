@@ -396,6 +396,25 @@ nav h1{
   margin: 1rem;
 }
 
+.information{
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+  padding: 50px;
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */ -moz-column-count: 3; /* Firefox */ column-count: 3;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.information img{
+  padding-left: 30px;
+}
+
+.lukeskywalker{
+  color: #ffffff;
+  background-color: #114d29;
+}
+
 .queen{
   background-color: #1100ff;
   color: #cacaca;
@@ -461,4 +480,27 @@ body .books{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.clooney{
+  background-color: #db220d;
+}
+
+.likebutton{
+  background-color: green;
+  padding: 0.5rem;
+  border-radius: 4px;
+  border-color: 8px black;
+}
+
+.likebutton:focus{
+  background-color: greenyellow;
+}
+
+.likebutton:hover{
+  background-color: greenyellow;
+}
+
+.likebutton:visited{
+  background-color: greenyellow;
 }

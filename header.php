@@ -36,6 +36,8 @@
                         <a href="<?php echo $base_url ?>/informatie/timothydalton.php">Timothy Dalton</a>
                         <a href="<?php echo $base_url ?>/informatie/rogermoore.php">Roger Moore</a>
                         <a href="<?php echo $base_url ?>/informatie/darthvader.php">Darth Vader</a>
+                        <a href="<?php echo $base_url ?>/informatie/lukeskywalker.php">Luke Skywalker</a>
+                        <a href="<?php echo $base_url ?>/informatie/clooney.php">George Clooney</a>
                     </div>
                 </div>
                 <div class="dropdown">
@@ -44,6 +46,8 @@
                         <a href="<?php echo $base_url ?>/tools/hamers.php">Hamers</a>
                         <a href="<?php echo $base_url ?>/tools/kettingzagen.php">Kettingzagen</a>
                         <a href="<?php echo $base_url ?>/tools/cirkelzagen.php">Cirkelzagen</a>
+                        <a href="<?php echo $base_url ?>/tools/handzagen.php">Handzagen</a>
+                        <a href="<?php echo $base_url ?>/tools/schroevendraaiers.php">Schroevendraaiers</a>
                     </div>
                 </div>
 

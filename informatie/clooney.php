@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>CodeCamp</title>
 </head>
-<body>
+<body class="clooney">
     <?php require_once("../header.php") ?>
 
-    <a href="hamers.php">Hamers</a>
-    <a href="kettingzagen.php">Kettingzagen</a>
-    <a href="cirkelzagen.php">Cirkelzagen</a>
-    <a href="handzagen.php">Handzagen</a>
+    <div class="container">
 
-    <?php require_once("../footer.php") ?>
+    <footer>
+        <?php require_once("../footer.php") ?>
+    </footer>
 </body>
 </html>
