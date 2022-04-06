@@ -10,12 +10,23 @@
 </head>
 
 <body>
-        <?php require_once "header.php"; ?>
-        <?php if(isset($_SESSION['user_id'])):?>
-            <?php if(!$_SESSION['role'] == "admin")
-            {
-                die("Only admins may view this page!");
-            }
-            ?>
-        <?php endif; ?>
+    <?php require_once "header.php"; ?>
+
+    <?php if(!isset($_SESSION['role']))
+    {
+        die("Only admins may view this page!");
+    }
+    elseif(!$_SESSION['role'] == "admin")
+    {
+        die("Only admins may view this page!");
+    }
+    ?>
+
+    <?php if(!$_SESSION['role'] == "admin")
+    {
+        die("Only admins may view this page!");
+    }
+    ?>
+
+    
 </body>
