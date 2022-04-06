@@ -52,6 +52,20 @@
                 <input type="image" src="../img/liked.png" alt="liked button" name="submit">
                 <?php endif; ?>
             </form>
+            <p>
+                <?php
+                    require_once '../backend/conn.php';
+                    $query = "SELECT * FROM liked_books WHERE (book_id = :book_id)";
+                    $statement = $conn->prepare($query);
+                    $statement->execute([
+                        ":book_id" => $book['id']
+                    ]);
+                    $likes = $statement->fetchAll(PDO::FETCH_ASSOC);
+                
+                    $amount_likes = count($likes);
+                    echo $amount_likes;
+                ?>
+            </p>
         </div>
         <?php endforeach; ?>
     </div>
