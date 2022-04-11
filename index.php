@@ -33,7 +33,7 @@
 
     
    </div>
-    
+   <img src="img/areamap.png" alt="img areamap">
     <?php require_once("footer.php") ?>
     <a class="hidden" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">:)</a>
 </body>
