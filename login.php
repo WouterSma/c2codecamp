@@ -52,7 +52,7 @@
 
         <div class="form-group">
             <label for="password">Password:</label>
-            <input type="password" name="password" id="password">
+            <input type="text" name="password" id="password">
         </div>
         <input type="hidden" name="action" value="create">
         <input type="submit" value="create">
