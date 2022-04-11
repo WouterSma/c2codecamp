@@ -504,3 +504,16 @@ background-color: rgb(238, 238, 238);
 background-color: lightgray;
 }
 
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:500px;
+  width:500px;
+}
+
+.gmap_canvas{
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:500px;
+}

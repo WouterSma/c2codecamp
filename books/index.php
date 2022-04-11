@@ -26,6 +26,7 @@
             <h4>By: <?php echo $book['author'] ?></h4>
             <p>Pages: <?php echo $book['num_pages'] ?></p>
             <a href="edit.php?id=<?php echo $book['id'] ?>">edit</a>
+            <?php if(!empty($_SESSION['user_id'])): ?>
             <form action="../backend/bookController.php" method="POST">
                 <?php
                     $user_id = $_SESSION['user_id'];
@@ -52,7 +53,9 @@
                 <input type="image" src="../img/liked.png" alt="liked button" name="submit">
                 <?php endif; ?>
             </form>
+            <?php endif; ?>
             <p>
+                likes: 
                 <?php
                     require_once '../backend/conn.php';
                     $query = "SELECT * FROM liked_books WHERE (book_id = :book_id)";
