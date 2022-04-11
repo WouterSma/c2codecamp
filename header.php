@@ -44,10 +44,15 @@
                     <a class="dropdown_button" href="<?php echo $base_url ?>/tools/tool.php">tools</a>
                     <div class="dropdown_content">
                         <a href="<?php echo $base_url ?>/tools/hamers.php">Hamers</a>
-                        <a href="<?php echo $base_url ?>/tools/kettingzagen.php">Kettingzagen</a>
-                        <a href="<?php echo $base_url ?>/tools/cirkelzagen.php">Cirkelzagen</a>
-                        <a href="<?php echo $base_url ?>/tools/handzagen.php">Handzagen</a>
                         <a href="<?php echo $base_url ?>/tools/schroevendraaiers.php">Schroevendraaiers</a>
+                        <div class="subdropdown">
+                            <a class="dropdown_subbutton" href="<?php echo $base_url ?>">Zagen</a>
+                            <div class="dropdown_subcontent">
+                                <a href="<?php echo $base_url ?>/tools/kettingzagen.php">kettingzagen</a>
+                                <a href="<?php echo $base_url ?>/tools/cirkelzagen.php">cirkelzagen</a>
+                                <a href="<?php echo $base_url ?>/tools/schroevendraaiers.php">handzagen</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
