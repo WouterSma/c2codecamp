@@ -12,6 +12,14 @@
     <?php require_once("../header.php") ?>
 
     <div class="container">
+    <h1>George Clooney, and the legend of What Else</h1>
+        <br>
+            <img src="../img/clooney.jpg" alt="img George Clooney">
+        <br>
+            <p>He is one with the caffeine and the caffeine is one with him.<p>
+            <p>An unbreakable bond is formed in the morning routine of this legend.<p>
+        <br>
+    </div>
 
     <footer>
         <?php require_once("../footer.php") ?>
