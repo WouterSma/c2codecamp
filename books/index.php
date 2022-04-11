@@ -25,7 +25,10 @@
             <h3><?php echo $book['title'] ?></h3>
             <h4>By: <?php echo $book['author'] ?></h4>
             <p>Pages: <?php echo $book['num_pages'] ?></p>
+            <p>Price: <?php echo $book['price'] ?></p>
+            <a href="editPrice.php?id=<?php echo $book['id'] ?>">edit price</a>
             <a href="edit.php?id=<?php echo $book['id'] ?>">edit</a>
+            
             <?php if(!empty($_SESSION['user_id'])): ?>
             <form action="../backend/bookController.php" method="POST">
                 <?php

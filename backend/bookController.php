@@ -40,8 +40,37 @@ if($action == "create")
 
     header("Location:../books/index.php?msg=book saved");
 }
+if($action == "edit_price")
+{
+    $id = $_POST['id'];
+    $price = $_POST['price'];
+
+    if(empty($price)){
+        $errors = "Enter a price!";
+    }
+
+    function alert($errors){
+        echo "<script>alert($errors);</script>";
+    }
+
+    if(isset($errors)){
+        die($errors);
+    }
+
+    require_once 'conn.php';
+    $query = "UPDATE books SET price = :price WHERE id = :id";
+    $statement = $conn->prepare($query);
+    $statement->execute([
+        ":id"=>$id,
+        "price"=>$price
+    ]);
+
+    header("Location:../books/index.php?msg=book saved");
+}
+
 if($action == "edit")
 {
+    $id = $_POST['id'];
     $author = $_POST['author'];
     $num_pages = $_POST['num_pages']; 
     $title = $_POST['title'];
