@@ -70,9 +70,9 @@
                         <div class="subdropdown">
                             <a class="dropdown_subbutton" href="<?php echo $base_url ?>">koud</a>
                             <div class="dropdown_subcontent">
-                                <a href="">test2</a>
-                                <a href="">test2</a>
-                                <a href="">test2</a>
+                                    <a href="<?php echo $base_url ?>/dranken/frisdranken.php">frisdrank</a>
+                                    <a href="">test2</a>
+                                    <a href="">test2</a>
                             </div>
                         </div>
                     </div>

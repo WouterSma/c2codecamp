@@ -17,6 +17,7 @@
             Andere belangrijke ingrediënten zijn vanille, kaneel, karamel en citroen.</br>
             Anders dan de meeste frisdranken bevat het geen citroenzuur, maar fosforzuur.</br>
             Dieetcola bevat zowel fosforzuur als citroenzuur. Er bestaan naast suikervrije ook cafeïnevrije colavarianten.</p>
+            <a href="<?php echo $base_url ?>/informatie/rogermoore.php">Roger Moore</a>   
 
             <h3>7Up</h3>
             <p>
