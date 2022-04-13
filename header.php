@@ -62,9 +62,9 @@
                         <div class="subdropdown">
                             <a class="dropdown_subbutton" href="<?php echo $base_url ?>">warm</a>
                             <div class="dropdown_subcontent">
-                                <a href="">test</a>
-                                <a href="">test</a>
-                                <a href="">test</a>
+                                <a href="<?php echo $base_url ?>/dranken/koffie.php">Koffie</a>
+                                <a href="<?php echo $base_url ?>/dranken/latte.php">Latte</a>
+                                <a href="<?php echo $base_url ?>/dranken/thee.php">Thee</a>
                             </div>
                         </div>
                         <div class="subdropdown">
