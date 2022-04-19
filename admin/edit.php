@@ -10,7 +10,12 @@
 </head>
 
 <body>
-    <?php require_once "../header.php"; ?>
+    <?php require_once "../header.php"; 
+    if(!isset($_SESSION['role']) || $_SESSION['role'] != "admin")
+    {
+        die("Only admins may edit roles!");
+    }
+    ?>
     <div class="container">
         <form action="../backend/loginController.php" method="POST">
             <div class="form-group">

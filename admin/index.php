@@ -12,11 +12,7 @@
 <body>
     <?php require_once "../header.php"; ?>
 
-    <?php if(!isset($_SESSION['role']))
-    {
-        die("Only admins may view this page!");
-    }
-    elseif(!$_SESSION['role'] == "admin")
+    <?php if(!isset($_SESSION['role']) || $_SESSION['role'] != "admin")
     {
         die("Only admins may view this page!");
     }

@@ -12,7 +12,7 @@
 <body>
     <?php require_once "../header.php"; ?>
     <?php
-        if(!$_SESSION['role'] == "admin"){
+        if(empty($_SESSION['role']) || $_SESSION['role'] != "content_leverancier"){
             die("You have too be an admin too edit a book!");
         }
     ?>

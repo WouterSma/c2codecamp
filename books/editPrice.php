@@ -12,10 +12,7 @@
 <body>
     <?php require_once "../header.php"; ?>
     <?php
-        if(empty($_SESSION['user_id'])){
-            die("You have too be a sales manager too edit the price of a book!");
-        }
-        elseif(!$_SESSION['role'] == "sales_manager"){
+        if(empty($_SESSION['user_id']) || $_SESSION['role'] != "sales_manager"){
             die("You have too be a sales manager too edit the price of a book!");
         }
     ?>

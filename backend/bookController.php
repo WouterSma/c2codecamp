@@ -45,6 +45,10 @@ if($action == "edit_price")
     $id = $_POST['id'];
     $price = $_POST['price'];
 
+    if($_SESSION['role'] == "sales manager"){
+        die("You have to be a sales manager too edit the price!");
+    }
+
     if(empty($price)){
         $errors = "Enter a price!";
     }

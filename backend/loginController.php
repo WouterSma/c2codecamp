@@ -66,11 +66,7 @@ if($action == "create"){
 }
 if($action == "edit")
 {
-    if(!isset($_SESSION['role']))
-    {
-        die("Only admins may edit roles!");
-    }
-    elseif(!$_SESSION['role'] == "admin")
+    if(!isset($_SESSION['role']) || $_SESSION['role'] != "admin")
     {
         die("Only admins may edit roles!");
     }
