@@ -21,6 +21,6 @@
             <img src="<?php echo $base_url ?>/img/luke.png" alt="Luke Skywalker">
 
         </div>
-
+        <?php require_once("../footer.php") ?>
 </body>
 </html>
